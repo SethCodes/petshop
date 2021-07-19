@@ -1,0 +1,91 @@
+
+/***** HEADER *****/
+
+#header{
+    height: 500px;
+    margin: 0 100px;
+
+}
+#header h1{
+    padding-top: 200px;
+    padding-bottom: 40px;
+}
+#header p{
+    margin: 0 20% 20px; 
+}
+
+
+/***** FEATURE BLURBS *****/
+
+.blurb-container{
+    padding: 20px 30px;
+    margin: 10%;
+}
+
+.blurb-left{
+float: left;
+margin-right: 20px;
+}
+.blurb-right{
+float: right;
+margin-left: 20px
+}
+
+/***** SERVICES *****/
+
+
+#services{
+    background-color: lightgray;
+    padding: 20px 40px;
+}
+#services h2{
+    margin-bottom: 30px;
+}
+.service{
+    padding-bottom: 30px;
+}
+
+.service-head{
+    margin: 20px 20% 50px;
+}
+#services img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+}
+
+
+/***** LATEST UPDATES *****/
+
+#updates{
+    padding-bottom: 50px;
+}
+
+#updates h2{
+    margin-bottom: 30px;
+}
+
+.color{
+    background-color: blue;
+}
+
+
+/***** LATEST UPDATES *****/
+
+#newsletter{
+    background-color: lightgray;
+    padding: 30px;
+}
+#newsletter h2{
+    display: flex;
+    align-items: flex-end;
+}
+
+
+/***** NEWSLETTER   *****/
+ #newsletter {
+     padding: 50px 50px;
+
+ }
