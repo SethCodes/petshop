@@ -1,91 +1,179 @@
 
+/***** GLOBALs *****/
+body{
+    margin: 0px;
+    min-width: 500px;
+}
+
+
+
+
+
+/***** NAV *****/
+
+.nav-item{
+    margin-left: 10px;
+}
+
+
+
 /***** HEADER *****/
 
-#header{
-    height: 500px;
-    margin: 0 100px;
+#header {
+  height: 500px;
+  margin: 0 100px;
+}
+#header h1 {
+  padding-top: 200px;
+  padding-bottom: 40px;
+}
+#header p {
+  margin: 0 20% 20px;
+}
+#header button{
+    width: 20%;
+}
 
-}
-#header h1{
-    padding-top: 200px;
-    padding-bottom: 40px;
-}
-#header p{
-    margin: 0 20% 20px; 
-}
+
+
+
+/*************** HOME PAGE ***************/
+
+
 
 
 /***** FEATURE BLURBS *****/
 
-.blurb-container{
-    padding: 20px 30px;
-    margin: 10%;
+.blurb-container {
+  padding: 20px 30px;
+  margin: 10%;
 }
 
-.blurb-left{
-float: left;
-margin-right: 20px;
+.blurb-left {
+  float: left;
+  margin-right: 20px;
 }
-.blurb-right{
-float: right;
-margin-left: 20px
+.blurb-right {
+  float: right;
+  margin-left: 20px;
 }
 
 /***** SERVICES *****/
 
-
-#services{
-    background-color: lightgray;
-    padding: 20px 40px;
+#services {
+  background-color: lightgray;
+  padding: 20px 40px;
 }
-#services h2{
-    margin-bottom: 30px;
+#services h2 {
+  margin-bottom: 30px;
 }
-.service{
-    padding-bottom: 30px;
-}
-
-.service-head{
-    margin: 20px 20% 50px;
-}
-#services img{
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    float: left;
-    margin-right: 10px;
+.service {
+  padding-bottom: 30px;
 }
 
+.service-head {
+  margin: 20px 20% 50px;
+}
+#services img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 10px;
+}
 
 /***** LATEST UPDATES *****/
 
-#updates{
-    padding-bottom: 50px;
+#updates {
+  padding-bottom: 50px;
 }
 
-#updates h2{
-    margin-bottom: 30px;
+#updates h2 {
+  margin-bottom: 30px;
 }
 
-.color{
-    background-color: blue;
+.color {
+  background-color: blue;
 }
-
-
-/***** LATEST UPDATES *****/
-
-#newsletter{
-    background-color: lightgray;
-    padding: 30px;
-}
-#newsletter h2{
+.update-card{
     display: flex;
-    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+/***** NEWSLETTER *****/
+
+#newsletter {
+  display: flex;
+  background-color: lightgray;
+  padding: 50px 50px;
+  justify-content: center;
+  align-items: center;
+}
+#newsletter h2 {
+  margin-right: 20px;
+}
+
+/***** FOOTER   *****/
+
+#footer{
+    padding: 10% 0 10%;
+}
+#footer h2{
+    padding-bottom: 10px;
+}
+.social-links{
+    padding: 10px;
+    color: darkgray
+}
+#footer-links{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%
+    
+}
+
+/***** FOOTER STRIP *****/
+
+ul{
+    padding-top: 15px;
+    padding-left: 0;
+}
+li{
+    list-style: none;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#footer-strip{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#footer-strip a{
+    padding-right: 15px;
+    color: black;
+}
+@media only screen and (max-width: 767px){
+    #footer-links{
+        padding-top: 30px;
+        justify-content: center;
+    }
 }
 
 
-/***** NEWSLETTER   *****/
- #newsletter {
-     padding: 50px 50px;
 
- }
+
+/*************** ABOUT PAGE ***************/
+
+
+/***** FOOTER STRIP *****/
