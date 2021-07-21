@@ -70,6 +70,9 @@ img{
 #services h2 {
   margin-bottom: 30px;
 }
+.service-items{
+  padding: 0px 30px;
+}
 .service {
   padding-bottom: 30px;
 }
@@ -266,5 +269,61 @@ flex: 1;
 
 
 
+/*************** PRODUCT PAGE ***************/
 
+/***** CLIENTS *****/
+
+.sale-item-big{
+  padding: 30px;
+}
+.saleH{
+  padding: 15px 15px 5px;
+}
+.saleP{
+  padding: 0px 15px;
+}
+
+#video p{
+  padding: 30px 50px;
+}
+
+#video button{
+  width: 20%;
+}
+
+
+
+
+
+
+
+/*************** CONTACT PAGE ***************/
+
+#contact{
+  padding: 20px 30px 20px;
+}
+#contact h2{
+  padding: 30px;
+}
+#contact p{
+  padding: 10px 30px;
+}
+#contact i{
+  margin-right: 20px;
+}
+
+/***** FORM *****/
+
+#contact form{
+  padding: 30px;
+}
+
+
+/***** MAP *****/
+.map{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
 
