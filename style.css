@@ -88,7 +88,7 @@ li{
 /***** HEADER *****/
 
 #header {
-  height: 500px;
+  min-height: 500px;
   margin: 0 100px;
 }
 #header h1 {
@@ -99,19 +99,32 @@ li{
   margin: 0 20% 20px;
 }
 #header button{
+  min-width: 100px;
     width: 20%;
 }
+
+.of{
+  display: block; 
+}
+
 
 
 
 
 /*************** HOME PAGE ***************/
 
-
+@media only screen and (max-width: 690){
+  #blurb{
+    padding-top: 50px;
+    margin-top: 50px;
+  }
+}
 
 
 /***** FEATURE BLURBS *****/
-
+#blurb{
+  display: block;
+}
 .blurb-container {
   padding: 20px 30px;
   margin: 10%;
