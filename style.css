@@ -379,10 +379,10 @@ flex: 1;
 /*************** PARALLAX EFFECT ***************/
 
 .parallax-home-one {
-  perspective: 20px;
+  perspective: 8px;
   height: 100vh;
-  /* overflow-x: hidden; */
-  /* overflow-y: auto; */
+  overflow-x: hidden;
+  overflow-y: auto;
   background: url('https://images.unsplash.com/photo-1601758177266-bc599de87707?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8cGV0c3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
