@@ -13,7 +13,9 @@ img{
 
 
 /***** NAV *****/
-
+nav{
+  background-color: darkgray;
+}
 .nav-item{
     margin-left: 10px;
 }
@@ -49,7 +51,9 @@ padding: 0px 50px ;
 
 
 /***** FOOTER STRIP *****/
-
+#footer-strip{
+  background-color: darkgray;
+}
 ul{
   padding-top: 15px;
   padding-left: 0;
@@ -122,12 +126,20 @@ li{
 
 
 /***** FEATURE BLURBS *****/
-#blurb{
-  display: block;
-}
+
 .blurb-container {
   padding: 20px 30px;
   margin: 10%;
+  color: white;
+  opacity: 1;
+}
+.blurb-container.row{
+  color: rgba(255, 255, 255, 0.5)
+}
+.blurb-container img{
+  height: 200px;
+  width: 300px;
+border-radius: 10px;
 }
 
 .blurb-left {
@@ -157,6 +169,7 @@ li{
 
 .service-head {
   margin: 20px 20% 50px;
+  padding-top: 50px;
 }
 #services img {
   height: 100px;
@@ -174,6 +187,10 @@ li{
 
 #updates h2 {
   margin-bottom: 30px;
+}
+
+#updates .card img{
+  height: 200px;
 }
 
 .color {
@@ -295,6 +312,10 @@ flex: 1;
 
 /***** CLIENTS *****/
 
+.lgraybackground{
+  background-color: lightgray;
+}
+
 .sale-item-big{
   padding: 30px;
 }
@@ -349,3 +370,45 @@ flex: 1;
   overflow: hidden;
 }
 
+
+
+
+
+/*************** PARALLAX EFFECT ***************/
+
+.parallax-home-one {
+  perspective: 20px;
+  height: 100vh;
+  /* overflow-x: hidden; */
+  /* overflow-y: auto; */
+  background: url('https://images.unsplash.com/photo-1601758177266-bc599de87707?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8cGV0c3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.parallax__layer--base {
+  margin-bottom: 100px;
+  transform: translateZ(0);
+}
+.parallax__layer--back {
+  transform: translateZ(-1px);
+}
+/* #services{
+  margin-top: 50px;
+} */
+#last{
+  height: 400px;
+}
+
+/* background: url(images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; */
