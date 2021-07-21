@@ -6,6 +6,7 @@ body{
 }
 img{
   object-fit: cover;
+  border-radius: 10px;
 }
 
 
@@ -190,6 +191,7 @@ border-radius: 10px;
 }
 
 #updates .card img{
+  border-radius: 5px 5px 0 0;
   height: 200px;
 }
 
