@@ -156,7 +156,9 @@ li{
   min-width: 100px;
     width: 20%;
 }
-
+#header a{
+  width: 20%;
+}
 
 
 
