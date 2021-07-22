@@ -1,9 +1,9 @@
 :root {
-  --tart_orange: #ef5b5b;
+  --tart_orange: rgba(232, 114, 45);
   --blue: #22223b;
-  --green: #6fd08c;
-  --yellow: #ffca3a;
-  --terra_cotta: #d77a61;
+  --green: rgba(131, 206, 228);
+  --yellow: rgba(177, 216, 216);
+  --terra_cotta: rgba(228, 140, 70);
 }
 
 
@@ -20,18 +20,26 @@ h1, h2, h3{
 h4, h5{
   font-family: 'Roboto', sans-serif;
 
-  color: var(--terra_cotta)
+  color: var(--blue)
 }
-
+.nav-link:hover{
+color: var(--terra_cotta) !important;
+}
 img{
   object-fit: cover;
   border-radius: 10px;
 }
-button :hover{
-  color: var(--tart_orange)
+
+strike{
+  color: lightgray;
+}
+
+.btn:hover{
+  background-color: var(--terra_cotta);
+  color: #fff;
 }
 hr{
-border: 1px solid var(--yellow);
+border: 1px solid var(--tart_orange);
 width: 60%;
 }
 
@@ -56,7 +64,7 @@ background-color: var(--yellow);
 
 #footer{
   padding: 10% 0 10%;
-  background: linear-gradient(#6fd08c ,#ffca3a 20%);
+  background: linear-gradient(var(--green) ,var(--yellow) 20%);
 }
 #footer h2{
   padding-bottom: 10px;
@@ -133,13 +141,13 @@ li{
 #header {
   min-height: 500px;
   /* background-color: var(--green); */
-  background: linear-gradient(#ffca3a, #6fd08c  20%);
-
+  background: linear-gradient(var(--yellow), var(--green)  20%);
 
 }
 #header h1 {
   padding-top: 120px;
   padding-bottom: 40px;
+  font-size: 2.5rem;
 }
 #header p {
   margin: 0 20% 20px;
@@ -393,7 +401,8 @@ width: 200px;
   font-size: ;
 }
 .price-strike{
-  color: var(--tart_orange);
+  font-size: 16px;
+  color: lightgray;
 }
 
 #video p{
@@ -412,7 +421,7 @@ width: 200px;
 }
 
 .card-text-price{
-  color: green;
+  color: var(--tart_orange);
 }
 
 
