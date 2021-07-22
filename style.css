@@ -1,12 +1,38 @@
+:root {
+  --tart_orange: #ef5b5b;
+  --blue: #22223b;
+  --green: #6fd08c;
+  --yellow: #ffca3a;
+  --terra_cotta: #d77a61;
+}
+
 
 /***** GLOBALs *****/
 body{
     margin: 0px;
     min-width: 500px;
+
 }
+h1, h2, h3{
+  font-family: 'Roboto', sans-serif;
+  color: var(--blue);
+}
+h4, h5{
+  font-family: 'Roboto', sans-serif;
+
+  color: var(--terra_cotta)
+}
+
 img{
   object-fit: cover;
   border-radius: 10px;
+}
+button :hover{
+  color: var(--tart_orange)
+}
+hr{
+border: 1px solid var(--yellow);
+width: 60%;
 }
 
 
@@ -15,20 +41,29 @@ img{
 
 /***** NAV *****/
 nav{
-  background-color: darkgray;
+  background: linear-gradient(#ffca3a, #6fd08c );
+  
 }
 .nav-item{
     margin-left: 10px;
+}
+
+.logo{
+  font-family: 'Festive', cursive;
+  font-size: 3rem;
 }
 
 /***** FOOTER   *****/
 
 #footer{
   padding: 10% 0 10%;
-  background-color: darkgray;
+  background: linear-gradient(#6fd08c ,#ffca3a 20%);
 }
 #footer h2{
   padding-bottom: 10px;
+}
+#footer h4{
+  color: var(--blue)
 }
 .social-links{
   padding: 10px;
@@ -43,6 +78,10 @@ nav{
   width: 100%
   
 }
+
+#footer-links a :hover{
+  color: var(--terra_cotta)
+}
 .info{
 display: flex;
 flex-direction: column;
@@ -53,7 +92,7 @@ padding: 0px 50px ;
 
 /***** FOOTER STRIP *****/
 #footer-strip{
-  background-color: darkgray;
+  background-color: var(--yellow);
 }
 ul{
   padding-top: 15px;
@@ -94,10 +133,10 @@ li{
 
 #header {
   min-height: 500px;
-  margin: 0 100px;
+  background-color: var(--green);
 }
 #header h1 {
-  padding-top: 200px;
+  padding-top: 120px;
   padding-bottom: 40px;
 }
 #header p {
@@ -108,9 +147,7 @@ li{
     width: 20%;
 }
 
-.of{
-  display: block; 
-}
+
 
 
 
@@ -155,7 +192,6 @@ border-radius: 10px;
 /***** SERVICES *****/
 
 #services {
-  background-color: lightgray;
   padding: 20px 40px;
 }
 #services h2 {
@@ -169,7 +205,7 @@ border-radius: 10px;
 }
 
 .service-head {
-  margin: 20px 20% 50px;
+  margin: 0px 20% 50px;
   padding-top: 50px;
 }
 #services img {
@@ -184,6 +220,9 @@ border-radius: 10px;
 
 #updates {
   padding-bottom: 50px;
+}
+#updates .card-text{
+  color: black
 }
 
 #updates h2 {
@@ -208,7 +247,7 @@ border-radius: 10px;
 
 #newsletter {
   display: flex;
-  background-color: lightgray;
+  background: linear-gradient(#fff, var(--green) 20%);
   padding: 50px 50px;
   justify-content: center;
   align-items: center;
@@ -251,7 +290,7 @@ height: 300px;
 /***** TEAM *****/
 
 #team {
-padding: 10%;
+padding: 1% 10% 10%;
 
 
 }
@@ -273,21 +312,43 @@ padding-bottom: 15px;
 /***** CLIENTS *****/
 #clients{
   padding-bottom: 30px;
+  background-color: var(--green);
+}
+
+.top-left{
+  width: 100%;
+  height: 500px;
 }
 
 .top-right{
   width: 100%;
+  height: 100%;
 }
 .top-bottom{
   padding-top: 30px;
 }
 
 .top-top-right{
+  align-items: center;
   height: 80%;
 }
 .bottom-top-right{
   height: 100%;
 flex: 1;
+}
+/* #pic-block-left{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} */
+#pic-block-right{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#pic-block-right img{
+height: 250px;
+width: 200px;
 }
 
 .test{
@@ -326,6 +387,11 @@ flex: 1;
 }
 .saleP{
   padding: 0px 15px;
+  color: green;
+  font-size: ;
+}
+.price-strike{
+  color: var(--tart_orange);
 }
 
 #video p{
@@ -335,8 +401,13 @@ flex: 1;
 #video button{
   width: 20%;
 }
+.card-text{
+  color: green;
+}
 
-
+#spotlight{
+  background-color: var(--green);
+}
 
 
 
@@ -358,9 +429,14 @@ flex: 1;
 }
 
 /***** FORM *****/
-
+#contact{
+  background-color: var(--green);
+}
 #contact form{
   padding: 30px;
+}
+#contact input{
+  margin-bottom: 10px;
 }
 
 
