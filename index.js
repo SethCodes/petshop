@@ -6,13 +6,23 @@ console.log(year);
 document.getElementById('copyright').innerHTML = `Copyright ${year}. All rights reserved.`
 
 //about page
-let rightRow = document.getElementById('pic-block-left');
+let leftRow = document.getElementById('pic-block-left');
+
+let rightRow = document.getElementById('pic-block-right');
+
 
 if(window.innerWidth < 990){
-    rightRow.classList.remove('col-8');
+    leftRow.classList.remove('col-8');
+    leftRow.classList.add('text-center');
+
+    
+
     
     
-} else {
-    rightRow.classList.add('col-8');
+}
+if (window.innerWidth >= 991) {
+    leftRow.classList.add('col-8');
+    leftRow.classList.remove('text-center');
+
 }
 console.log(rightRow.classList);

@@ -41,8 +41,7 @@ width: 60%;
 
 /***** NAV *****/
 nav{
-  background: linear-gradient(#ffca3a, #6fd08c );
-  
+background-color: var(--yellow); 
 }
 .nav-item{
     margin-left: 10px;
@@ -133,7 +132,10 @@ li{
 
 #header {
   min-height: 500px;
-  background-color: var(--green);
+  /* background-color: var(--green); */
+  background: linear-gradient(#ffca3a, #6fd08c  20%);
+
+
 }
 #header h1 {
   padding-top: 120px;
@@ -168,7 +170,6 @@ li{
 .blurb-container {
   padding: 20px 30px;
   margin: 10%;
-  color: white;
   opacity: 1;
 }
 .blurb-container.row{
@@ -247,7 +248,8 @@ border-radius: 10px;
 
 #newsletter {
   display: flex;
-  background: linear-gradient(#fff, var(--green) 20%);
+  background-color: var(--green);
+  /* background: linear-gradient(#fff, var(--green) 20%); */
   padding: 50px 50px;
   justify-content: center;
   align-items: center;
@@ -409,6 +411,10 @@ width: 200px;
   background-color: var(--green);
 }
 
+.card-text-price{
+  color: green;
+}
+
 
 
 
@@ -430,7 +436,7 @@ width: 200px;
 
 /***** FORM *****/
 #contact{
-  background-color: var(--green);
+  background:linear-gradient(var(--yellow), var(--green) 20%);
 }
 #contact form{
   padding: 30px;
@@ -481,9 +487,9 @@ width: 200px;
 /* #services{
   margin-top: 50px;
 } */
-#last{
+/* #last{
   height: 400px;
-}
+} */
 
 /* background: url(images/bg.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
