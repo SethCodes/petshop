@@ -140,10 +140,9 @@ li{
 
 #header {
   min-height: 500px;
-  /* background-color: var(--green); */
   background: linear-gradient(var(--yellow), var(--green)  20%);
-
 }
+
 #header h1 {
   padding-top: 120px;
   padding-bottom: 40px;
