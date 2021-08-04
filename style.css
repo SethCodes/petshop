@@ -240,7 +240,10 @@ border-radius: 10px;
 }
 
 #updates .card img{
-  border-radius: 5px 5px 0 0;
+  border-radius: 0;
+  height: 200px;
+}
+.card-img-top{
   height: 200px;
 }
 

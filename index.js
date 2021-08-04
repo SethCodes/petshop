@@ -1,3 +1,5 @@
+
+//get date for footer copyright
 let date= new Date();
 let year = date.getFullYear();
 console.log(year);
@@ -19,4 +21,7 @@ if(window.innerWidth < 990){
     leftRow.classList.remove('text-center');
 
 }
-console.log(rightRow.classList);
+
+
+
+    
