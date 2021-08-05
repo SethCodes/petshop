@@ -52,7 +52,7 @@ var products = [
     var postHTML = " ";
 
     for(let i = 0; i < products.length; i++){
-        let div = '<div class="col-lg-4 col-md-6 col-sm-12 update-card sale-item-small"> <div class="card" style="width: 18rem;">';
+        let div = '<div class="col-lg-4 col-md-6 col-sm-12 update-card sale-item-small" data-aos="fade-up"> <div class="card" style="width: 18rem;">';
         let image = '<img src="' + products[i].image + '" class="card-img-top" alt="product">';
         let cardBody = '<div class="card-body"><h5 class="card-title">' + products[i].title + '</h5><p class="card-text-price lead"><strike class="">$59.99</strike> ' + products[i].price + '</p></div></div></div>'
         let concatThis = div + image + cardBody;
